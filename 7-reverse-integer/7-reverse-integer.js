@@ -11,3 +11,4 @@ var reverse = function(x) {
     }
     return min <= reverseInt && reverseInt <= max ? reverseInt : 0;
 };
+
