@@ -5,9 +5,6 @@
  * @return {string[]}
  */
 var divideString = function(s, k, fill) {
-    // k 자리로 각각 나눠서
-    // 나누어떨어지면 그대로
-    // 모자라면 fill 로 채운다
     let arr = [];
 
     for (let i = 0; i < s.length; i += k) {
@@ -18,5 +15,5 @@ var divideString = function(s, k, fill) {
         }
         
     }
-    return [...arr];
+    return arr;
 };
