@@ -15,5 +15,5 @@ var divideString = function(s, k, fill) {
         }
         
     }
-    return arr;
+    return [...arr];
 };
