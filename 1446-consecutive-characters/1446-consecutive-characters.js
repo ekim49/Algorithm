@@ -5,7 +5,6 @@
 var maxPower = function(s) {
     let count = 1;
     let max = 1;
-    let countArr = [];
     
     for (let i = 0; i < s.length; i++) {
         if (s[i] === s[i + 1]) {
