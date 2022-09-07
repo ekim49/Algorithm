@@ -3,8 +3,14 @@
  * @return {number}
  */
 var missingNumber = function(nums) {
-    for (let i = 0; i <= nums.length; i++) {
-        let num = nums.indexOf(i);
-        if (num === -1) return i;
+    const number = nums.length;
+    const arr = Array.from(Array(number + 1).keys()); 
+    
+    for (let i = 0; i < arr.length; i++) {
+        if (nums.includes(arr[i])) {
+            continue;
+        } else {
+            return arr[i];
+        }
     }
 };
