@@ -1,6 +1,5 @@
 function solution(dot) {
-    const x = dot[0];
-    const y = dot[1];
+    const [x, y] = dot;
     
     if (x > 0 && y > 0) {
         return 1;
