@@ -1,5 +1,4 @@
 function solution(t, p) {
-    // substring(i, length + 1)
     let substr = [];
     let len = p.length;
     let pNum = Number(p);
