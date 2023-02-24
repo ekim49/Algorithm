@@ -1,11 +1,6 @@
 function solution(a, b) {
-    const min = Math.min(a, b);
-    const max = Math.max(a, b);
-    let sum = 0;
-    
-    for (let i = min; i <= max; i++) {
-        sum += i;
-    }
-    
-    return sum;
+    // 연속된 숫자의 합을 구할 때는 가우스의 덧셈을 적용하는 것이 연산이 적어 효율적인 알고리즘이다.
+    // 가우스의 덧셈
+    //( 양끝 두 수의 합 x ( 두 수 사이의 숫자의 수 + 1 ) ) / 2
+    return (a + b) * (Math.abs(a - b) + 1) / 2
 }
