@@ -6,6 +6,8 @@ function solution(letter) {
     '...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x',
     '-.--':'y','--..':'z'
     }
-    
-    return letter.split(' ').map(el => morse[el]).join('')
+    // 기존 풀이: map과 join을 사용
+    // return letter.split(' ').map(el => morse[el]).join('');
+
+    return letter.split(' ').reduce((prev, curr) => prev + morse[curr], '')
 }
