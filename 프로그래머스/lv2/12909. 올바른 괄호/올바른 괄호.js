@@ -1,22 +1,9 @@
-function solution(s) {
-    const [open, close] = ['(', ')'];
-    let [openCnt, closeCnt] = [0, 0];
-    
-    if (s.length % 2 !== 0) return false; 
-    if (s[0] !== open || s[s.length - 1] !== close) return false; 
-  
-    for (let i = 0; i < s.length; i++) {
-        if (s[i] === open) {
-          openCnt++;
-        } else if (s[i] === close) {
-          closeCnt++;
-        } else {
-          return false;
-        }
+function solution(s){
+    let 누적 = 0;
+    for (let 괄호 of s) {
+        누적 += 괄호 === '('? 1: -1; // 괄호가 ')' 인 경우 누적 = -1이 되어 아래 if문에서 걸림
         
-        if (closeCnt > openCnt) {
-          return false; 
-        }
+        if(누적 < 0) return false;
     }
-  return openCnt === closeCnt;
+    return 누적 === 0;
 }
