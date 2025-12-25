@@ -7,12 +7,14 @@ from LeetCode
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ekim49/Algorithm/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ekim49/Algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ekim49/Algorithm/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ekim49/Algorithm/tree/master/0242-valid-anagram) |
@@ -20,6 +22,7 @@ from LeetCode
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ekim49/Algorithm/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ekim49/Algorithm/tree/master/0242-valid-anagram) |
@@ -27,6 +30,7 @@ from LeetCode
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/ekim49/Algorithm/tree/master/0242-valid-anagram) |
 ## Two Pointers
 |  |
