@@ -1,20 +1,15 @@
 function isAnagram(s: string, t: string): boolean {
-    // not an anagram if s, t has different length
     if (s.length !== t.length) return false;
+    const map = new Map();
 
-    const count = {};
-
-    // letter counts for s
     for (let char of s) {
-        count[char] = (count[char] || 0) + 1;
+        map.set(char, (map.get(char) || 0) + 1);
     }
 
-    // subtract characters using t
     for (let char of t) {
-        // if char doesn't exist in the original string, return false
-        if (!count[char]) return false;
-        count[char]--;
+        map.set(char, (map.get(char) || 0) - 1);
+        if (map.get(char) === 0) map.delete(char);
     }
 
-    return true;
+    return map.size === 0;
 };
