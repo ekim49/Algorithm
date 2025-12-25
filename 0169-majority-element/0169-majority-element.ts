@@ -1,12 +1,11 @@
 function majorityElement(nums: number[]): number {
-    const map = new Map();
-    for (let num of nums) {
-        map.set(num, (map.get(num) || 0) + 1);
-    }
+    const map = new Map<number, number>();
+    const majority = nums.length / 2;
 
-    const majorityOccurcence = nums.length / 2;
+    for (const num of nums) {
+        const count = (map.get(num) ?? 0) + 1;
+        map.set(num, count);
 
-    for (let [k, v] of map) {
-        if (v >= majorityOccurcence) return k;
+        if (count > majority) return num;
     }
 };
