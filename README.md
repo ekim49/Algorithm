@@ -12,6 +12,7 @@ from LeetCode
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ekim49/Algorithm/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/ekim49/Algorithm/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/ekim49/Algorithm/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/ekim49/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ekim49/Algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Hash Table
@@ -41,6 +42,7 @@ from LeetCode
 ## Two Pointers
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/ekim49/Algorithm/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ekim49/Algorithm/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
 |  |
