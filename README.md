@@ -7,6 +7,7 @@ from LeetCode
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ekim49/Algorithm/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/ekim49/Algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/ekim49/Algorithm/tree/master/0128-longest-consecutive-sequence) |
@@ -20,6 +21,7 @@ from LeetCode
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ekim49/Algorithm/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/ekim49/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
