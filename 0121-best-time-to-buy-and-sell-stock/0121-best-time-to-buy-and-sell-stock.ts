@@ -1,4 +1,5 @@
 function maxProfit(prices: number[]): number {
+    // 1. 
     // sliding window
     // let buy = 0;
     // let sell = 1;
@@ -15,16 +16,27 @@ function maxProfit(prices: number[]): number {
     // }    
     // return maxProfit;
 
+    // 2.
+    // let minPrice = Infinity;
+    // let maxProfit = 0;
+
+    // for (let price of prices) {
+    //     if (price < minPrice) {
+    //         minPrice = price; // update minPrice if price is smaller
+    //     } else { // price >= minPrice -> time to sell?
+    //         const profit = price - minPrice;
+    //         maxProfit = Math.max(profit, maxProfit);
+    //     }
+    // }
+
+    // return maxProfit;
+
     let minPrice = Infinity;
     let maxProfit = 0;
 
-    for (let price of prices) {
-        if (price < minPrice) {
-            minPrice = price; // update minPrice if price is smaller
-        } else { // price >= minPrice -> time to sell?
-            const profit = price - minPrice;
-            maxProfit = Math.max(profit, maxProfit);
-        }
+    for (const price of prices) {
+        minPrice = Math.min(minPrice, price);
+        maxProfit = Math.max(maxProfit, price - minPrice);
     }
 
     return maxProfit;
