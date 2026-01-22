@@ -10,6 +10,7 @@ from LeetCode
 | [0001-two-sum](https://github.com/ekim49/Algorithm/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/ekim49/Algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ekim49/Algorithm/tree/master/0049-group-anagrams) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ekim49/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ekim49/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/ekim49/Algorithm/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/ekim49/Algorithm/tree/master/0169-majority-element) |
@@ -94,4 +95,8 @@ from LeetCode
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/ekim49/Algorithm/tree/master/0134-gas-station) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ekim49/Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
